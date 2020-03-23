@@ -131,11 +131,11 @@ class ARModel:
 
 def run_for_all_data(to_points, acc):
     data = {
-        "esnet": ["esnet_regular2.csv", "esnet_regular.csv"], 
-        "xsede": ["xsede_regular.csv", "xsede_regular2.csv"], 
-        "pronghorn": ["pronghorn_regular2.csv", "pronghorn_regular.csv"], 
-        "freq": ["pronghorn_frequency.csv", "pronghorn_frequency2.csv", "esnet_frequency.csv", "esnet_frequency2.csv", "dtns_frequency.csv", "dtns_frequency2.csv"], 
-        "dtns": ["dtns_regular2.csv", "dtns_regular.csv"]
+        "esnet": [ "esnet_regular.csv"], 
+        "xsede": ["xsede_regular.csv"], 
+        "pronghorn": [ "pronghorn_regular.csv"], 
+        "freq": ["pronghorn_frequency.csv", "esnet_frequency.csv", "dtns_frequency.csv"], 
+        "dtns": ["dtns_regular.csv"]
         }
     for i in data:
         for j in data[i]:
